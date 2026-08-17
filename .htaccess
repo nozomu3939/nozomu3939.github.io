@@ -1,0 +1,66 @@
+# ============================================================
+#  DXレスキュー コーポレートサイト（静的サイト）
+#  Apache用。out/ と一緒にサーバーのドキュメントルートへ置く。
+# ============================================================
+
+# --- SSL証明書の自動更新を止めないこと（最重要）---------------
+# certbot は /.well-known/acme-challenge/ を使って所有確認を行う。
+# ここを塞ぐと更新に失敗し、数十日後に証明書切れでサイトが全滅する。
+RewriteEngine On
+RewriteRule ^\.well-known/ - [L]
+
+# --- HTTPS へ統一 --------------------------------------------
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# --- 文字コード ----------------------------------------------
+# PHPを撤去すると charset の出所が Apache 側に変わるため明示する。
+AddDefaultCharset UTF-8
+
+# --- ディレクトリの既定ファイル ------------------------------
+# index.php より index.html を先に見るようにする。
+DirectoryIndex index.html index.php
+
+# --- 404 -----------------------------------------------------
+ErrorDocument 404 /404/index.html
+
+# --- 一覧表示を禁止 ------------------------------------------
+Options -Indexes
+
+# --- 旧サイトのURLからの転送 ---------------------------------
+Redirect 301 /contact/ /#contact
+Redirect 301 /hello-world/ /
+Redirect 301 /category/uncategorized/ /
+
+# --- 圧縮 ----------------------------------------------------
+# 同一サーバー内でも dxrescue.co.jp だけ無効になっていたため明示する。
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+  AddOutputFilterByType DEFLATE application/javascript application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# --- キャッシュ ----------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|webp|jpe?g|png|svg|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+# --- MIME ----------------------------------------------------
+# 古い Apache は WebP を認識しないことがある。
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+</IfModule>
