@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">SaaS営業のターゲット企業を100点で評価するスコアカード</title>
+  <desc id="desc">企業適合度40点、導入タイミング30点、接触可能性20点、データ確度10点に分けて評価する。</desc>
+  <rect width="1200" height="720" rx="28" fill="#f4f8fb"/>
+  <text x="72" y="92" font-family="Noto Sans JP, sans-serif" font-size="42" font-weight="700" fill="#102a43">候補企業を4要素・100点で評価</text>
+  <text x="72" y="132" font-family="Noto Sans JP, sans-serif" font-size="22" fill="#486581">適合度とタイミングを分けると、根拠のある優先順位になる</text>
+  <g font-family="Noto Sans JP, sans-serif">
+    <rect x="72" y="190" width="420" height="190" rx="22" fill="#0b7285"/>
+    <text x="106" y="246" font-size="27" font-weight="700" fill="#fff">企業適合度</text><text x="416" y="246" text-anchor="end" font-size="38" font-weight="700" fill="#fff">40点</text>
+    <text x="106" y="296" font-size="21" fill="#e6fcf5">業種・規模・地域・業務課題</text><text x="106" y="334" font-size="21" fill="#e6fcf5">自社の導入条件に合うか</text>
+    <rect x="520" y="190" width="608" height="190" rx="22" fill="#2cb1bc"/>
+    <text x="554" y="246" font-size="27" font-weight="700" fill="#fff">導入タイミング</text><text x="1052" y="246" text-anchor="end" font-size="38" font-weight="700" fill="#fff">30点</text>
+    <text x="554" y="296" font-size="21" fill="#e6fcf5">採用・拠点開設・サービス更新など</text><text x="554" y="334" font-size="21" fill="#e6fcf5">課題が動いている観測事実</text>
+    <rect x="72" y="410" width="608" height="190" rx="22" fill="#486581"/>
+    <text x="106" y="466" font-size="27" font-weight="700" fill="#fff">接触可能性</text><text x="604" y="466" text-anchor="end" font-size="38" font-weight="700" fill="#fff">20点</text>
+    <text x="106" y="516" font-size="21" fill="#f0f4f8">代表電話・問い合わせ窓口・部署仮説</text><text x="106" y="554" font-size="21" fill="#f0f4f8">適切な入口が確認できるか</text>
+    <rect x="708" y="410" width="420" height="190" rx="22" fill="#829ab1"/>
+    <text x="742" y="466" font-size="27" font-weight="700" fill="#fff">データ確度</text><text x="1052" y="466" text-anchor="end" font-size="38" font-weight="700" fill="#fff">10点</text>
+    <text x="742" y="516" font-size="21" fill="#fff">情報源URL・取得日・法人番号</text><text x="742" y="554" font-size="21" fill="#fff">後から再確認できるか</text>
+    <line x1="72" y1="646" x2="1128" y2="646" stroke="#bcccdc" stroke-width="2"/>
+    <text x="72" y="683" font-size="20" fill="#486581">点数は絶対評価ではなく、同じ母集団の中で営業順を決めるために使う</text>
+  </g>
+</svg>

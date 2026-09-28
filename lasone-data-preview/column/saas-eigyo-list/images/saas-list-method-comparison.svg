@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">SaaS営業リストの4つの作成方法比較</title>
+  <desc id="desc">公的データと手作業、完成済みリスト購入、作成ツール、作成代行を、初速、条件変更、継続更新、社内工数で比較する。</desc>
+  <rect width="1200" height="720" rx="28" fill="#f8fafc"/>
+  <text x="72" y="88" font-family="Noto Sans JP, sans-serif" font-size="42" font-weight="700" fill="#102a43">4つの作成方法は、使う場面が違う</text>
+  <text x="72" y="130" font-family="Noto Sans JP, sans-serif" font-size="22" fill="#486581">「安い順」ではなく、条件変更と継続更新の必要性で選ぶ</text>
+  <g font-family="Noto Sans JP, sans-serif">
+    <rect x="72" y="184" width="1056" height="62" rx="14" fill="#102a43"/>
+    <text x="96" y="225" font-size="22" font-weight="700" fill="#fff">方法</text><text x="430" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">初速</text><text x="620" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">条件変更</text><text x="810" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">継続更新</text><text x="1010" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">社内工数</text>
+    <g font-size="21" fill="#102a43">
+      <rect x="72" y="262" width="1056" height="88" rx="14" fill="#eef6f8"/><text x="96" y="316" font-weight="700">公的データ＋手作業</text><text x="430" y="316" text-anchor="middle">遅い</text><text x="620" y="316" text-anchor="middle">高い</text><text x="810" y="316" text-anchor="middle">自社管理</text><text x="1010" y="316" text-anchor="middle">大きい</text>
+      <rect x="72" y="366" width="1056" height="88" rx="14" fill="#f4f8fb"/><text x="96" y="420" font-weight="700">完成済みリスト購入</text><text x="430" y="420" text-anchor="middle">速い</text><text x="620" y="420" text-anchor="middle">低い</text><text x="810" y="420" text-anchor="middle">商品次第</text><text x="1010" y="420" text-anchor="middle">小さい</text>
+      <rect x="72" y="470" width="1056" height="88" rx="14" fill="#e6fcf5" stroke="#2cb1bc" stroke-width="2"/><text x="96" y="524" font-weight="700">作成ツール</text><text x="430" y="524" text-anchor="middle">中〜速い</text><text x="620" y="524" text-anchor="middle">高い</text><text x="810" y="524" text-anchor="middle">しやすい</text><text x="1010" y="524" text-anchor="middle">中</text>
+      <rect x="72" y="574" width="1056" height="88" rx="14" fill="#fff4e6"/><text x="96" y="628" font-weight="700">作成代行</text><text x="430" y="628" text-anchor="middle">要件次第</text><text x="620" y="628" text-anchor="middle">再依頼</text><text x="810" y="628" text-anchor="middle">契約次第</text><text x="1010" y="628" text-anchor="middle">小さい</text>
+    </g>
+    <text x="72" y="696" font-size="19" fill="#486581">同じ100社・同じ必要項目で、対象外率と整備時間を比較して決める</text>
+  </g>
+</svg>

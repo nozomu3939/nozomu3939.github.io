@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">SaaS営業リストを作る7段階の判断フロー</title>
+  <desc id="desc">目的、ICP、観測条件、母集団、名寄せ、優先順位、100社検証の順に進める。</desc>
+  <rect width="1200" height="780" rx="28" fill="#f8fafc"/>
+  <text x="72" y="86" font-family="Noto Sans JP, sans-serif" font-size="42" font-weight="700" fill="#102a43">SaaS営業リストは7段階で作る</text>
+  <text x="72" y="126" font-family="Noto Sans JP, sans-serif" font-size="22" fill="#486581">検索条件を入力する前に、営業の目的と判定基準を固定する</text>
+  <g font-family="Noto Sans JP, sans-serif">
+    <g transform="translate(72 178)"><rect width="456" height="112" rx="18" fill="#e6fcf5" stroke="#2cb1bc" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#0b7285"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">1</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">営業目的を固定</text><text x="102" y="82" font-size="19" fill="#486581">商談数・契約数・検証テーマ</text></g>
+    <g transform="translate(672 178)"><rect width="456" height="112" rx="18" fill="#e6fcf5" stroke="#2cb1bc" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#0b7285"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">2</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">ICPと除外条件</text><text x="102" y="82" font-size="19" fill="#486581">適合と不適合を文章化</text></g>
+    <path d="M528 234H660" stroke="#829ab1" stroke-width="4"/><path d="m650 224 14 10-14 10" fill="none" stroke="#829ab1" stroke-width="4"/>
+    <g transform="translate(672 330)"><rect width="456" height="112" rx="18" fill="#f0f4f8" stroke="#829ab1" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#486581"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">3</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">観測条件へ変換</text><text x="102" y="82" font-size="19" fill="#486581">業種・規模・公開シグナル</text></g>
+    <path d="M900 290V318" stroke="#829ab1" stroke-width="4"/><path d="m890 308 10 14 10-14" fill="none" stroke="#829ab1" stroke-width="4"/>
+    <g transform="translate(72 330)"><rect width="456" height="112" rx="18" fill="#f0f4f8" stroke="#829ab1" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#486581"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">4</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">母集団を集める</text><text x="102" y="82" font-size="19" fill="#486581">規約・API条件・用途を確認</text></g>
+    <path d="M672 386H540" stroke="#829ab1" stroke-width="4"/><path d="m550 376-14 10 14 10" fill="none" stroke="#829ab1" stroke-width="4"/>
+    <g transform="translate(72 482)"><rect width="456" height="112" rx="18" fill="#edf2ff" stroke="#5c7cfa" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#4263eb"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">5</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">法人単位で名寄せ</text><text x="102" y="82" font-size="19" fill="#486581">法人番号・ドメイン・電話</text></g>
+    <path d="M300 442V470" stroke="#829ab1" stroke-width="4"/><path d="m290 460 10 14 10-14" fill="none" stroke="#829ab1" stroke-width="4"/>
+    <g transform="translate(672 482)"><rect width="456" height="112" rx="18" fill="#edf2ff" stroke="#5c7cfa" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#4263eb"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">6</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">優先順位を付ける</text><text x="102" y="82" font-size="19" fill="#486581">適合・時期・接触・確度</text></g>
+    <path d="M528 538H660" stroke="#829ab1" stroke-width="4"/><path d="m650 528 14 10-14 10" fill="none" stroke="#829ab1" stroke-width="4"/>
+    <g transform="translate(372 634)"><rect width="456" height="112" rx="18" fill="#fff4e6" stroke="#f59f00" stroke-width="3"/><circle cx="54" cy="56" r="28" fill="#e67700"/><text x="54" y="65" text-anchor="middle" font-size="25" font-weight="700" fill="#fff">7</text><text x="102" y="50" font-size="25" font-weight="700" fill="#102a43">100社で検証</text><text x="102" y="82" font-size="19" fill="#486581">条件と営業結果を分けて改善</text></g>
+    <path d="M900 594V614H600V622" stroke="#829ab1" stroke-width="4" fill="none"/><path d="m590 612 10 14 10-14" fill="none" stroke="#829ab1" stroke-width="4"/>
+  </g>
+</svg>

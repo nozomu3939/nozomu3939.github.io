@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">営業リスト作成ツールの総コストと品質チェック</title>
+  <desc id="desc">料金だけでなく、初期費用、最低契約期間、オプション、整備工数を総コストに含め、対象外率、空欄率、重複率、情報源記録、作業時間を品質指標として確認する図</desc>
+  <rect width="1200" height="720" rx="36" fill="#f4f8fb"/>
+  <text x="600" y="72" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#102a43">月額ではなく「使える100件の総コスト」で比べる</text>
+  <g font-family="sans-serif">
+    <rect x="64" y="122" width="500" height="500" rx="28" fill="#fff" stroke="#9fb3c8" stroke-width="2"/>
+    <text x="104" y="174" font-size="28" font-weight="700" fill="#243b53">総コスト</text>
+    <g font-size="21" fill="#486581">
+      <text x="110" y="238">月額・買い切り料金</text><text x="478" y="238" text-anchor="end">＋</text>
+      <text x="110" y="304">初期費用</text><text x="478" y="304" text-anchor="end">＋</text>
+      <text x="110" y="370">最低契約期間</text><text x="478" y="370" text-anchor="end">＋</text>
+      <text x="110" y="436">API・追加クレジット</text><text x="478" y="436" text-anchor="end">＋</text>
+      <text x="110" y="502">抽出・整備の人件費</text><text x="478" y="502" text-anchor="end">＝</text>
+    </g>
+    <rect x="104" y="536" width="420" height="58" rx="16" fill="#e6fffa"/>
+    <text x="314" y="574" text-anchor="middle" font-size="23" font-weight="700" fill="#0b5864">必要期間の総額</text>
+    <rect x="636" y="122" width="500" height="500" rx="28" fill="#fff" stroke="#57a0d3" stroke-width="2"/>
+    <text x="676" y="174" font-size="28" font-weight="700" fill="#243b53">100件の品質</text>
+    <g font-size="21" fill="#486581">
+      <text x="682" y="238">対象外率</text><text x="1088" y="238" text-anchor="end">低いか</text>
+      <text x="682" y="304">必要項目の空欄率</text><text x="1088" y="304" text-anchor="end">低いか</text>
+      <text x="682" y="370">重複率</text><text x="1088" y="370" text-anchor="end">低いか</text>
+      <text x="682" y="436">情報源URL・取得日</text><text x="1088" y="436" text-anchor="end">残るか</text>
+      <text x="682" y="502">抽出から整備まで</text><text x="1088" y="502" text-anchor="end">何分か</text>
+    </g>
+    <rect x="676" y="536" width="420" height="58" rx="16" fill="#eaf2ff"/>
+    <text x="886" y="574" text-anchor="middle" font-size="23" font-weight="700" fill="#1d4ed8">使える件数を確認</text>
+  </g>
+  <text x="600" y="672" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#486581">安いツールでも整備工数が増えれば、営業開始までの費用は下がりません</text>
+</svg>

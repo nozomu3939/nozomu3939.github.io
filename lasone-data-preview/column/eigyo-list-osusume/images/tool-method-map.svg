@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">営業リスト作成ツールの4方式比較</title>
+  <desc id="desc">企業データベース、複数サイト収集、地図検索、表示ページ抽出を、情報源の広さと運用の継続性で比較した図</desc>
+  <rect width="1200" height="720" rx="36" fill="#f4f8fb"/>
+  <text x="72" y="76" font-family="sans-serif" font-size="34" font-weight="700" fill="#102a43">同じ「営業リスト作成」でも、方式が違う</text>
+  <text x="72" y="116" font-family="sans-serif" font-size="20" fill="#486581">情報源の広さ × 継続運用のしやすさで整理</text>
+  <line x1="154" y1="604" x2="1088" y2="604" stroke="#829ab1" stroke-width="3"/>
+  <line x1="154" y1="604" x2="154" y2="170" stroke="#829ab1" stroke-width="3"/>
+  <text x="884" y="653" font-family="sans-serif" font-size="20" fill="#486581">情報源が広い →</text>
+  <text x="42" y="390" font-family="sans-serif" font-size="20" fill="#486581" transform="rotate(-90 42 390)">継続運用しやすい →</text>
+  <g font-family="sans-serif">
+    <rect x="220" y="438" width="230" height="116" rx="22" fill="#fff" stroke="#9fb3c8" stroke-width="2"/>
+    <text x="335" y="480" text-anchor="middle" font-size="25" font-weight="700" fill="#243b53">表示ページ抽出</text>
+    <text x="335" y="516" text-anchor="middle" font-size="18" fill="#627d98">Lister</text>
+    <rect x="248" y="230" width="230" height="116" rx="22" fill="#fff" stroke="#57a0d3" stroke-width="2"/>
+    <text x="363" y="272" text-anchor="middle" font-size="25" font-weight="700" fill="#243b53">地図検索</text>
+    <text x="363" y="308" text-anchor="middle" font-size="18" fill="#627d98">ListupTool</text>
+    <rect x="604" y="216" width="230" height="116" rx="22" fill="#e6fffa" stroke="#2cb1bc" stroke-width="3"/>
+    <text x="719" y="258" text-anchor="middle" font-size="25" font-weight="700" fill="#0b5864">複数サイト収集</text>
+    <text x="719" y="294" text-anchor="middle" font-size="18" fill="#147d92">Urizo / Lasone Data</text>
+    <rect x="832" y="392" width="230" height="116" rx="22" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+    <text x="947" y="434" text-anchor="middle" font-size="25" font-weight="700" fill="#7c2d12">企業DB検索</text>
+    <text x="947" y="470" text-anchor="middle" font-size="18" fill="#9a3412">Musubu</text>
+  </g>
+</svg>

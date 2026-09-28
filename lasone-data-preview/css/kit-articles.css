@@ -1,0 +1,19 @@
+/* Supplied article components are scoped to the article body. */
+.kit-article{min-width:0;overflow-wrap:anywhere}
+.kit-article .toc{border:1px solid var(--line);border-radius:12px;padding:20px 24px;margin:24px 0}
+.kit-article .toc ol{padding-left:1.3em}
+.kit-article .note{padding:16px 20px;background:#fff8dc;border-radius:12px;font-size:14px}
+.kit-article .tw{max-width:100%;overflow-x:auto;margin:24px 0;border:1px solid var(--line);border-radius:12px}
+.kit-article .tw:focus-visible{outline:3px solid var(--teal-700);outline-offset:3px}
+.kit-article table{border-collapse:collapse;min-width:560px;width:100%;font-size:14px;line-height:1.7}
+.kit-article th,.kit-article td{padding:12px 16px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.kit-article th{background:var(--teal-50)}
+.kit-article figure{margin:28px 0}
+.kit-article figure svg{display:block;width:100%;max-width:640px;height:auto;margin:auto}
+.kit-article figcaption{font-size:12px;line-height:1.8;color:var(--text-muted);margin-top:10px}
+.kit-article video{width:100%;aspect-ratio:16/9;height:auto;object-fit:contain;display:block;background:#06323a;border-radius:12px}
+.kit-article blockquote{margin:24px 0;padding:18px 24px;border-left:4px solid var(--teal-700);background:var(--teal-50)}
+.kit-article .faq details{border-bottom:1px solid var(--line);padding:16px 0}
+.kit-article .faq summary{font-weight:700;cursor:pointer;min-height:44px;line-height:1.7}
+.kit-article .faq details p{margin:12px 0}
+@media(max-width:600px){.kit-article .toc{padding:16px}.kit-article figure{overflow-x:auto}.kit-article figure[tabindex]::before{content:"図は横にスクロールできます →";display:block;position:sticky;left:0;font-size:12px;color:var(--text-muted);margin-bottom:8px}.kit-article figure svg{min-width:480px}.kit-article .vid{overflow:visible}}
